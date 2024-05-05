@@ -1,0 +1,10 @@
+{
+    "display_name": "Starting Conversations",
+    "loading_order": 10,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "author": "Carsten Kragelund",
+    "version": "1.0.0",
+    "homePage": "https://github.com/NyxKrage/SillyTavern-StartingConversations"
+}
