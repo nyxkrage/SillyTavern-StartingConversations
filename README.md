@@ -15,4 +15,5 @@ This can allow you to set up more complex introductory scenes without introducti
 ## Known Issues
 
 1. Does not work with alternative greetings
+1. Has not been tested with Group Chats, use at your own risk.
 1. Editing the starting conversation may not update the current chat, and you will need to create a new chat to see the changes reflected.
