@@ -1,4 +1,4 @@
-import { callPopup, printMessages, clearChat, substituteParams, characters, default_ch_mes, eventSource, event_types, menu_type } from "../../../../script.js";
+import { callPopup, printMessages, clearChat, substituteParams, characters, eventSource, event_types, menu_type } from "../../../../script.js";
 import { getContext, writeExtensionField } from "../../../extensions.js";
 import { getMessageTimeStamp } from "../../../RossAscends-mods.js";
 import { getRegexedString, regex_placement } from "../../../extensions/regex/engine.js";
@@ -131,7 +131,7 @@ function openStartingConversation() {
     template.find('.add_starting_conversation').on('click', function () {
         const array = getArray();
         const index = array.length;
-        array.push({ text: default_ch_mes, role: index % 2 == 1 ? 'user' : 'char' });
+        array.push({ text: 'Hello', role: index % 2 == 1 ? 'user' : 'char' });
         addStartingConversation(template, array[index], index, getArray);
     });
 
